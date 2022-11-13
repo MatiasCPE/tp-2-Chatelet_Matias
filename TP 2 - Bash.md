@@ -21,7 +21,7 @@
     
     On vérifie que la variable existe avec la commande `echo $MY_VAR`
     
-    ![Capture d’écran de 2022-10-25 09-57-56.png](TP%202%20-%20Bash%2002a7c94e59344d92a041d092c107a0cc/Capture_dcran_de_2022-10-25_09-57-56.png)
+    ![Capture d’écran de 2022-10-25 09-57-56.png](assets/Capture_dcran_de_2022-10-25_09-57-56.png)
     
 5. La commande `bash` supprime les variables locales, donc `MY_VAR` n’existe plus.
 6. On crée la variable d’environnement `MY_VAR` avec la commande `export MY_VAR=toto`
@@ -31,12 +31,12 @@
 7. On crée la variable NOM qui contient nom et prénom, `export NOM='Matias Chatelet-Ferrety’`. On peut afficher sa valeur avec un `echo $NOM` 
 8. La commande `echo "Bonjour à vous, $NOM!”` permet d’afficher :
     
-    ![Capture d’écran de 2022-10-25 10-35-23.png](TP%202%20-%20Bash%2002a7c94e59344d92a041d092c107a0cc/Capture_dcran_de_2022-10-25_10-35-23.png)
+    ![Capture d’écran de 2022-10-25 10-35-23.png](assets/Capture_dcran_de_2022-10-25_10-35-23.png)
     
 9. Mettre une variable à vide ne va pas supprimer la variable contrairement à la commande `unset` qui supprime définitivement une variable d’environnement
 10. La commande `echo '$HOME = '"$HOME”` permet d’afficher la phrase :
     
-    ![Capture d’écran de 2022-10-25 10-48-25.png](TP%202%20-%20Bash%2002a7c94e59344d92a041d092c107a0cc/Capture_dcran_de_2022-10-25_10-48-25.png)
+    ![Capture d’écran de 2022-10-25 10-48-25.png](assets/Capture_dcran_de_2022-10-25_10-48-25.png)
     
 
 ## Exercice 2 - Contrôle de mot de passe :
